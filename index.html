@@ -1,4 +1,21 @@
----
-layout: home
-# Index page
----
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome to XStation</title>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+<body>
+  <h1><center>XStation: an intresting homepage</center></h1>
+
+  <p>Here is a LaTeX equation: \(E=mc^2\)</p>
+
+  <script type="text/javascript">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['\\(','\\)']]
+    }
+  });
+  </script>
+</body>
+</html>
