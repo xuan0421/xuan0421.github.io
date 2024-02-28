@@ -1,0 +1,73 @@
+/* CSS样式可以在这里添加 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #B3EFFF;
+        }
+
+        header {
+            background-color: #1C304A;
+            color: #00CFFF;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #046B99;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #B3EFFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #046B99;
+            color: #B3EFFF;
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+		footer a {
+            color: #B3EFFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
